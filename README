@@ -12,6 +12,8 @@ qrenc defaults to version 6, level L ecc, but you can specify the version, or th
 
 dofbits will generate a C file with the frame for one version/ecc level which will save a lot of RAM.  This file will link with qrencode.c
 
+# Para que sirve
+
 Lo uso para generar el archivo frame.c necesario para harcodear en la librería QRcodeDisplay de Arduino la version y data correction level del QR generado.
 
 Para eso compilo el proyecto en linux usando gcc, y modificando previamente el Makefile de modo que genere la herramienta dofbit (la agrego a linea all) y evitando que el Clean la elimine.
