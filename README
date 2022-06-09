@@ -21,3 +21,5 @@ Para eso compilo el proyecto en linux usando gcc, y modificando previamente el M
 Una vez hecha ejecutable desde consola (no olvidar ./) la herramienta dofbit recibe como parámetros Version (1-40) y ECCLVL (1-4). 
 
 Compilando también se obtiene un generador de jpg para linux (qrjpeg)
+
+NOTA PERSONAL: Mi version compilada está en Downloads 
